@@ -42,4 +42,5 @@ Stabilna wersja projektu, która została ukończona i przetestowana powinna by�
     git checkout feature    
         przechodzi na nowo utworzoną gałąź
 
-
+    git checkout master 
+        przechodzi z powrotem na główną gałąź
