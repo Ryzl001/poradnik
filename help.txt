@@ -41,5 +41,5 @@ Stabilna wersja projektu, która została ukończona i przetestowana powinna by�
 
     git checkout feature    
         przechodzi na nowo utworzoną gałąź
-        
+
 
