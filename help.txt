@@ -20,7 +20,11 @@ Start
 
     git commit -m "wiadomość zawierająca aktualny stan pliku"
 
+
+*************************************************
     *** wysłanie projektu na githuba ***
+*************************************************
+    
     git remote add origin https://github.com/Ryzl001/poradnik.git  
         /Ryzl001/... ostatni człon to nazwa utworzonego na githubie Repozytorium
     git push -u origin master 
