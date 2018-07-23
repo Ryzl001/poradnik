@@ -12,9 +12,35 @@ Start
 
     git status - sprawdza stan 
 
-    git.add nazwa pliku lub git add . - dodaje wszystkie pliki do kolejki oczekiwania
-        git status ponownie wpisany pokazuje na zielono, że pomyślnie dodano do kolejki pliki
+    git.add nazwa pliku lub git add . 
+        z kropką na końcu dodaje wszystkie pliki do kolejki oczekiwania
+        *git status* ponownie wpisany pokazuje na zielono, że pomyślnie dodano do kolejki pliki
 
         po zmodyfikowaniu teraz jakiegoś pliku powstaną dwie jego wersje, jedna zmodyfikowana, a druga dodana do kolejki i czekająca na potwierdzenie
 
     git commit -m "wiadomość zawierająca aktualny stan pliku"
+
+    *** wysłanie projektu na githuba ***
+    git remote add origin https://github.com/Ryzl001/poradnik.git  
+        /Ryzl001/... ostatni człon to nazwa utworzonego na githubie Repozytorium
+    git push -u origin master 
+        służy do dodawania zmian na githubie, które wcześniej zostały potwierdzone poleceniem *git commit*
+        kolejna komenda, która po wysłaniu będzie pytać o nazwę użytkownika Ryzl001 i hasło Stasiu84 w  moim przypadku
+
+    git pull 
+        pobiera zmiany ze zdalnego repozytorium
+
+    git pull origin master 
+        trzeba wskazać gałąź którą chcemy przywrócić
+
+
+Stabilna wersja projektu, która została ukończona i przetestowana powinna być zapisywana na gałęzi master. Dodatkowe funkcje powinny być na osobnych gałęziach, później zmiany te mogą być połączone z główną gałęzią
+
+    git branch feature 
+        tworzymy nową gałąź
+
+    git checkout feature    
+        przechodzi na nowo utworzoną gałąź
+
+    git checkout master 
+        przechodzi z powrotem na główną gałąź
