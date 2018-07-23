@@ -11,3 +11,10 @@ Start
     git init - plik .git z Repozytorium
 
     git status - sprawdza stan 
+
+    git.add nazwa pliku lub git add . - dodaje wszystkie pliki do kolejki oczekiwania
+        git status ponownie wpisany pokazuje na zielono, że pomyślnie dodano do kolejki pliki
+
+        po zmodyfikowaniu teraz jakiegoś pliku powstaną dwie jego wersje, jedna zmodyfikowana, a druga dodana do kolejki i czekająca na potwierdzenie
+
+    git commit -m "wiadomość zawierająca aktualny stan pliku"
