@@ -49,4 +49,4 @@ Stabilna wersja projektu, która została ukończona i przetestowana powinna by�
         łączy dodatkową gałąź z master
 
     git branch -d feature
-        po złączeniu należy usunąć dodatkową gałąź w celu zachowania porząku
+        po złączeniu należy usunąć dodatkową gałąź w celu zachowania porządku
