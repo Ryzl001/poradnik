@@ -1,0 +1,13 @@
+System kontfoli wersji - GIT
+
+Repozytorium 
+    Struktura danych, w której  GIT przechowuje informacje o projekcie oraz występujących zmianach, domyślnie jest do plik .git znajdujący się w katalogu projektu (domyślnie jest on ukryty)
+
+Konfiguracja 
+    git config --global user.name "stan"
+    git config --global user.email stan@gmail.com
+
+Start
+    git init - plik .git z Repozytorium
+
+    git status - sprawdza stan 
