@@ -42,6 +42,9 @@ Stabilna wersja projektu, która została ukończona i przetestowana powinna by�
 
     git branch feature 
         tworzymy nową gałąź
+        
+    git checkout -b {nazwa gałęzi}
+        tworzy nową gałąź o podanej nazwie i automatycznie przełącza się na niego    
 
     git checkout feature    
         przechodzi na nowo utworzoną gałąź
